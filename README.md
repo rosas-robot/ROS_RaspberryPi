@@ -3,4 +3,6 @@ Installing ROS on Raspberry-Pi may sometimes be helpful when one would like to r
 
 Afetr burning this image in to SD card, we need to modify language and keyboard settings of Ubuntu MATE as those settings are advantageous for those who knows German language. Next we will talk about the process of changinf language and keyborad layout.
 
-For language change follow, system -> Preferences -> Personal -> Language Support 
+For language change follow, System -> Preferences -> Personal -> Language Support. However *language Support* may not be installed apriori, so I first installed it and then changed settings.
+
+For *keyboard layout settings* change follow, Control center -> Hardware -> Keyboard -> Layout
