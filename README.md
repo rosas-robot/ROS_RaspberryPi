@@ -6,3 +6,24 @@ Afetr burning this image in to SD card, we need to modify language and keyboard 
 For language change follow, System -> Preferences -> Personal -> Language Support. However *language Support* may not be installed apriori, so I first installed it and then changed settings.
 
 For *keyboard layout settings* change follow, Control center -> Hardware -> Keyboard -> Layout
+
+# Installing ROSARIA
+In order to run PR2 or Amigobot, one has to install **ROSARIA** package from Amor robots. Type in the following commands into a terminal to install ROSARIA.
+
+```
+# Move to catkin workspace
+$ cd ~/catkin_ws/src
+
+# Clone the repository
+$ git clone http://github.com/amor-ros-pkg/
+
+# Update ROS dependencies
+$ rosdep update
+
+# Install ROSARIA
+$ rosdep install rosaria
+
+# catkin_make the workspace
+$ cd ~/catkin_ws/
+$ catkin_make
+```
