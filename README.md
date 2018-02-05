@@ -38,3 +38,10 @@ $ rosrun rosaria RosAria _port:=/dev/ttyUSB0
 Or,
 $ rosrun rosaria RosAria _port:=/dev/ttyS0
 ```
+Sometimes ports **USB0** or **S0** need premissions. The permissions are given as
+
+```
+$ sudo chmod a+rw /dev/ttyUSB0
+Or
+$ sudo chmod a+rw /dev/ttyS0
+```
