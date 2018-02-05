@@ -27,3 +27,14 @@ $ rosdep install rosaria
 $ cd ~/catkin_ws/
 $ catkin_make
 ```
+In order to run ROSARIA node, one needs to open two terminals and should type in as following,
+
+```
+# Termina 1
+$ roscore
+
+# Terminal 2
+$ rosrun rosaria RosAria _port:=/dev/ttyUSB0
+Or,
+$ rosrun rosaria RosAria _port:=/dev/ttyS0
+```
